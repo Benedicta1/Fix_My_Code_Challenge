@@ -62,7 +62,7 @@ class User():
 
                     user_1 = User()
                     if user_1.id is None:
-                         print("New User should have an id")
+                        print("New User should have an id")
 
                         user_2 = User()
                         if user_1.id == user_2.id:
@@ -101,5 +101,3 @@ class User():
                                                             if user_2.is_valid_password("No pwd"):
                                                                 print("is_valid_password should return False if no password set \
                                                                         before")
-
-                                                                                                                                   96,1          96%
